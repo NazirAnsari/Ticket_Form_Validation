@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h2>Book Online Ticket </h2>
+    <form action="" class="toSetWidth" method="post" name="myform" onsubmit="return formValidation()">
+        <div>
+            <label for="username">Username :</label>
+            <input type="text" id="username" name="username">
+        </div>
+
+        <div>
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div>
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="fname">Father Name :</label>
+            <input type="text" id="fname" name="fname">
+        </div>
+
+        <div>
+            <label for="email">E-mail :</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div>
+            <label for="phoneNumber">phone No :</label>
+            <input type="number" id="phoneNumber" name="phoneNumber">
+        </div>
+
+        <div>
+            <label for="Adult">Adult :</label>
+            <select name="Adult" id="Adult">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="children"> Children :</label>
+            <select name="children" id="children">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="departureDate">Departure Date :</label>
+            <input type="date" id="departureDate" name="departureDate">
+        </div>
+
+        <div>
+            <label for="arrivalDate">Arrival Date :</label>
+            <input type="date" id="arrivalDate" name="arrivalDate">
+        </div>
+
+        <div>
+            <label for="from">From :</label>
+            <select name="from" id="from">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbia">Mumbia</option>
+                <option value="Chennia">Chennia</option>
+                <option value="kerala">kerala</option>
+                <option value="Bihar">Bihar</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="to">To :</label>
+            <select name="to" id="to">
+                <option value="Haryana">Haryana</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Jammu & Kashmir">Jammu & Kashmir</option>
+                <option value="J & k">J & k</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="address">Address :</label>
+            <textarea class='setTextArea' name="address" id="address" cols="55" rows="10"></textarea>
+        </div>
+
+        <div id="btn">
+            <button type="reset">Clear</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <script src="ticket.js"></script>
+</body>
+
+</html>
